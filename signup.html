@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body>
+<section class="login py-5 bg-light">
+      <div class="container">
+        <div class="row g-0">
+            
+            
+            <div class="col-lg-15 text-center py-5">
+                <h1 >SIGNUP</h1>
+                <form action="php/check_signup.php" method="post">
+                    <div class="form -row py-3 pt-5">
+                        <div class="offset-1 col-lg-10">
+                            <select class="inp px-3" for="role" name="role"  name="role" id="role" aria-label="Default select example">
+                                <option value="customer">customer</option>
+                      </select>
+                        </div>
+                    </div>
+                    <div class="form-group py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="text" required for="First_name" class="inp px-3" placeholder="First name" name="First_name" id="First_name">
+                        </div>
+                    </div>
+                    <div class="form -row">
+                        <div class="offset-1 col-lg-10">
+                            <input type="text" required for="Last_name" class="inp px-3" placeholder="Last name" name="Last_name" id="Last_name">
+                        </div>
+                    </div>
+
+                <div class="form-group py-3">
+                    <label for="gender" ><b>Gender</b></label>
+                        <div>
+                            <label for="male" class="radio-inline">
+                                <input type="radio" name="gender" checked value="m" id="male" />Male &nbsp; &nbsp;</label>
+                            <label for="female" class="radio-inline">
+                                <input type="radio" name="gender"  value="f" id="female"/>Female</label >
+                        </div>
+                </div>
+
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="text" required for="Address" class="inp px-3" placeholder="Address" name="Address" id="Address">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="number" required for="Mobile" class="inp px-3" placeholder="Mobile" name="Mobile" id="Mobile">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="date" required for="Birthday" class="inp px-3" placeholder="Birthday" name="Birthday" id="Birthday">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="email" required for="email" class="inp px-3" placeholder="example@gmail.com" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="text" required for="NIC" class="inp px-3" placeholder="NIC" name="NIC" id="NIC">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="number" required for="Age" class="inp px-3" placeholder="Age" name="Age" id="Age">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="text" required for="Username" class="inp px-3" placeholder="Username" name="Username" id="Username">
+                        </div>
+                    </div>
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <input type="password" required for="Password" class="inp px-3" placeholder="Password" name="Password" id="Password">
+                        </div>
+                    </div>
+
+                    <div class="form -row py-3">
+                        <div class="offset-1 col-lg-10">
+                            <a href=""><button type="submit" class="btn1">Signup</button></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+  </section>
+</body>
+</html>
